@@ -311,6 +311,151 @@
             line-height: 1.6;
         }
 
+        /* قسم خدمات الإنتاج والطباعة الجديد */
+        #production-services {
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(61, 30, 109, 0.1);
+            transition: all 0.4s ease;
+            position: relative;
+        }
+
+        .service-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 20px 45px rgba(61, 30, 109, 0.25);
+        }
+
+        .service-icon {
+            background: linear-gradient(135deg, #3d1e6d 0%, #6b2fb5 100%);
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-icon:before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 30px 30px;
+            animation: gridMove 20s linear infinite;
+        }
+
+        .service-card:hover .service-icon {
+            background: linear-gradient(135deg, #6b2fb5 0%, #8b4fd6 100%);
+        }
+
+        .service-content {
+            padding: 2rem;
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            color: #3d1e6d;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .service-title-en {
+            font-size: 1.1rem;
+            color: #6b2fb5;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .service-description {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .service-items {
+            list-style: none;
+            padding: 0;
+        }
+
+        .service-items li {
+            padding: 0.6rem 0;
+            color: #555;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .service-items li:last-child {
+            border-bottom: none;
+        }
+
+        .service-items li:before {
+            content: '✓';
+            background: linear-gradient(135deg, #3d1e6d, #6b2fb5);
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .cta-button {
+            display: block;
+            margin: 3rem auto 0;
+            padding: 1.2rem 3rem;
+            background: linear-gradient(135deg, #3d1e6d, #6b2fb5);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            max-width: 300px;
+            box-shadow: 0 8px 20px rgba(107, 47, 181, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(107, 47, 181, 0.5);
+        }
+
+        [dir="ltr"] .service-items li {
+            flex-direction: row;
+        }
+
+        [dir="rtl"] .service-items li {
+            flex-direction: row-reverse;
+        }
+
         .skills-container {
             max-width: 900px;
             margin: 0 auto;
@@ -529,6 +674,13 @@
             .portfolio-grid {
                 grid-template-columns: 1fr;
             }
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            .service-icon {
+                height: 150px;
+                font-size: 4rem;
+            }
             .whatsapp-float {
                 width: 50px;
                 height: 50px;
@@ -549,6 +701,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#production-services">Production</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -677,98 +830,4 @@
         </div>
     </section>
 
-    <section id="skills">
-        <h2 class="translatable" data-en="Skills & Expertise" data-ar="المهارات والخبرات">Skills & Expertise</h2>
-        <p class="section-subtitle translatable" data-en="Mastery Across Creative Tools" data-ar="إتقان الأدوات الإبداعية">Mastery Across Creative Tools</p>
-        <div class="skills-container">
-            <div class="skill">
-                <div class="skill-name">
-                    <span>Adobe Photoshop</span>
-                    <span>95%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 95%"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill-name">
-                    <span>Adobe Illustrator</span>
-                    <span>95%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 95%"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill-name">
-                    <span>Adobe Premiere Pro</span>
-                    <span>95%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 95%"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill-name">
-                    <span>Adobe InDesign</span>
-                    <span>90%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 90%"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill-name">
-                    <span>CorelDRAW</span>
-                    <span>90%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 90%"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill-name">
-                    <span>Adobe After Effects</span>
-                    <span>85%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 85%"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill-name">
-                    <span>Adobe Dimension</span>
-                    <span>85%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 85%"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials">
-        <h2 class="translatable" data-en="Client Testimonials" data-ar="آراء العملاء">Client Testimonials</h2>
-        <p class="section-subtitle translatable" data-en="What Our Clients Say" data-ar="ماذا يقول عملاؤنا">What Our Clients Say</p>
-        <div class="testimonials">
-            <div class="testimonial-card">
-                <p class="testimonial-text">Working with Andrew and the Details team was an absolute pleasure. Their attention to detail and creative vision transformed our brand identity completely. The results exceeded our expectations!</p>
-                <p class="testimonial-author">Sarah Mitchell</p>
-                <p class="testimonial-role">Marketing Director, TechStart Inc.</p>
-            </div>
-            <div class="testimonial-card">
-                <p class="testimonial-text">Andrew's work on our social media campaign was outstanding. He understood our vision perfectly and delivered designs that significantly increased our engagement rates. A true creative professional!</p>
-                <p class="testimonial-author">Omar Hassan</p>
-                <p class="testimonial-role">CEO, Momentum Digital</p>
-            </div>
-            <div class="testimonial-card">
-                <p class="testimonial-text">Details delivered exactly what we needed—a complete brand overhaul. Andrew's 11 years of experience really shows in the quality and sophistication of his work. We couldn't be happier!</p>
-                <p class="testimonial-author">Jennifer Rodriguez</p>
-                <p class="testimonial-role">Founder, Luxe Beauty Co.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2 class="translatable" data-en="Get In Touch" data-ar="تواصل معنا">Get In Touch</h2>
-        <p class="section-subtitle translatable" data-en="Let's Create Something Amazing Together" data-ar="دعنا نصنع شيئاً مذهلاً معاً">Let's Create Something Amazing Together</p>
+    <!-- قسم خدمات الإنتاج والطبا
