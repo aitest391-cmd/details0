@@ -830,4 +830,265 @@
         </div>
     </section>
 
-    <!-- قسم خدمات الإنتاج والطبا
+    <!-- قسم خدمات الإنتاج والطباعة -->
+    <section id="production-services">
+        <h2 class="translatable" data-en="Production & Printing Services" data-ar="خدمات الإنتاج والطباعة">Production & Printing Services</h2>
+        <p class="section-subtitle translatable" data-en="Complete Solutions for All Your Production Needs" data-ar="حلول متكاملة لجميع احتياجاتك الإنتاجية">Complete Solutions for All Your Production Needs</p>
+
+        <div class="services-grid">
+            <!-- المطبوعات -->
+            <div class="service-card">
+                <div class="service-icon">📄</div>
+                <div class="service-content">
+                    <h3 class="service-title translatable" data-en="Printing Materials" data-ar="المطبوعات">Printing Materials</h3>
+                    <p class="service-description translatable" data-en="Professional high-quality printing for all marketing and administrative materials" data-ar="طباعة احترافية عالية الجودة لجميع المواد التسويقية والإدارية">Professional high-quality printing for all marketing and administrative materials</p>
+                    <ul class="service-items">
+                        <li class="translatable" data-en="Brochures & Catalogs" data-ar="بروشورات وكتالوجات">Brochures & Catalogs</li>
+                        <li class="translatable" data-en="Flyers & Posters" data-ar="فلايرز وملصقات">Flyers & Posters</li>
+                        <li class="translatable" data-en="Premium Business Cards" data-ar="كروت شخصية فاخرة">Premium Business Cards</li>
+                        <li class="translatable" data-en="Letterheads & Envelopes" data-ar="أوراق رسمية ومظاريف">Letterheads & Envelopes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- الحفر -->
+            <div class="service-card">
+                <div class="service-icon">⚙️</div>
+                <div class="service-content">
+                    <h3 class="service-title translatable" data-en="Engraving" data-ar="الحفر">Engraving</h3>
+                    <p class="service-description translatable" data-en="Precise and meticulous engraving on various surfaces and materials" data-ar="حفر دقيق ومتقن على مختلف الأسطح والمواد">Precise and meticulous engraving on various surfaces and materials</p>
+                    <ul class="service-items">
+                        <li class="translatable" data-en="Metal Engraving" data-ar="حفر على المعادن">Metal Engraving</li>
+                        <li class="translatable" data-en="Wood Engraving" data-ar="حفر على الخشب">Wood Engraving</li>
+                        <li class="translatable" data-en="Acrylic Engraving" data-ar="حفر على الأكريليك">Acrylic Engraving</li>
+                        <li class="translatable" data-en="Glass & Crystal Engraving" data-ar="حفر على الزجاج والكريستال">Glass & Crystal Engraving</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- القص بالليزر -->
+            <div class="service-card">
+                <div class="service-icon">✂️</div>
+                <div class="service-content">
+                    <h3 class="service-title translatable" data-en="Laser Cutting" data-ar="القص بالليزر">Laser Cutting</h3>
+                    <p class="service-description translatable" data-en="High-precision laser cutting for complex designs" data-ar="قص بتقنية الليزر عالية الدقة للتصاميم المعقدة">High-precision laser cutting for complex designs</p>
+                    <ul class="service-items">
+                        <li class="translatable" data-en="Precise cutting of various materials" data-ar="قص دقيق للمواد المختلفة">Precise cutting of various materials</li>
+                        <li class="translatable" data-en="Complex designs & decorations" data-ar="تصاميم معقدة وديكورات">Complex designs & decorations</li>
+                        <li class="translatable" data-en="Wood & Acrylic cutting" data-ar="قص الخشب والأكريليك">Wood & Acrylic cutting</li>
+                        <li class="translatable" data-en="Prototypes & Models" data-ar="نماذج أولية وماكيتات">Prototypes & Models</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- الهدايا الدعائية -->
+            <div class="service-card">
+                <div class="service-icon">🎁</div>
+                <div class="service-content">
+                    <h3 class="service-title translatable" data-en="Promotional Gifts" data-ar="الهدايا الدعائية">Promotional Gifts</h3>
+                    <p class="service-description translatable" data-en="Distinctive promotional gifts that leave a lasting impression" data-ar="هدايا دعائية مميزة تترك انطباعاً دائماً">Distinctive promotional gifts that leave a lasting impression</p>
+                    <ul class="service-items">
+                        <li class="translatable" data-en="Premium printed pens" data-ar="أقلام فاخرة مطبوعة">Premium printed pens</li>
+                        <li class="translatable" data-en="Custom mugs & thermoses" data-ar="أكواب وترامس مخصصة">Custom mugs & thermoses</li>
+                        <li class="translatable" data-en="Medals & Awards" data-ar="ميداليات ودروع تكريم">Medals & Awards</li>
+                        <li class="translatable" data-en="Promotional bags & accessories" data-ar="حقائب وإكسسوارات دعائية">Promotional bags & accessories</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- اللافتات والستاندات -->
+            <div class="service-card">
+                <div class="service-icon">🏢</div>
+                <div class="service-content">
+                    <h3 class="service-title translatable" data-en="Signage & Stands" data-ar="اللافتات والستاندات">Signage & Stands</h3>
+                    <p class="service-description translatable" data-en="Professional outdoor advertising and exhibition solutions" data-ar="حلول إعلانية خارجية ومعارض احترافية">Professional outdoor advertising and exhibition solutions</p>
+                    <ul class="service-items">
+                        <li class="translatable" data-en="Illuminated outdoor signs" data-ar="لافتات خارجية مضيئة">Illuminated outdoor signs</li>
+                        <li class="translatable" data-en="Portable exhibition stands" data-ar="ستاندات معارض متنقلة">Portable exhibition stands</li>
+                        <li class="translatable" data-en="Roll-up & X-banner" data-ar="رول أب وإكس بانر">Roll-up & X-banner</li>
+                        <li class="translatable" data-en="Directional & Wayfinding signs" data-ar="لوحات إرشادية وتوجيهية">Directional & Wayfinding signs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- طباعة على القماش -->
+            <div class="service-card">
+                <div class="service-icon">👕</div>
+                <div class="service-content">
+                    <h3 class="service-title translatable" data-en="Fabric Printing" data-ar="طباعة على القماش">Fabric Printing</h3>
+                    <p class="service-description translatable" data-en="High-quality textile printing with permanent colors" data-ar="طباعة نسيجية عالية الجودة بألوان ثابتة">High-quality textile printing with permanent colors</p>
+                    <ul class="service-items">
+                        <li class="translatable" data-en="Printed T-shirts & Polos" data-ar="تيشيرتات وبولوهات مطبوعة">Printed T-shirts & Polos</li>
+                        <li class="translatable" data-en="Promotional flags & banners" data-ar="أعلام ورايات دعائية">Promotional flags & banners</li>
+                        <li class="translatable" data-en="Large fabric banners" data-ar="بنرات قماش كبيرة">Large fabric banners</li>
+                        <li class="translatable" data-en="Corporate uniforms" data-ar="زي موحد للشركات">Corporate uniforms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://wa.me/201281081242?text=Hi%2C%20I'm%20interested%20in%20production%20services" class="cta-button translatable" data-en="Request Free Consultation" data-ar="اطلب استشارة مجانية">Request Free Consultation</a>
+    </section>
+
+    <section id="skills">
+        <h2 class="translatable" data-en="Skills & Expertise" data-ar="المهارات والخبرات">Skills & Expertise</h2>
+        <p class="section-subtitle translatable" data-en="Mastery Across Creative Tools" data-ar="إتقان الأدوات الإبداعية">Mastery Across Creative Tools</p>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Adobe Photoshop</span>
+                    <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Adobe Illustrator</span>
+                    <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Adobe Premiere Pro</span>
+                    <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Adobe InDesign</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>CorelDRAW</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Adobe After Effects</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Adobe Dimension</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2 class="translatable" data-en="Client Testimonials" data-ar="آراء العملاء">Client Testimonials</h2>
+        <p class="section-subtitle translatable" data-en="What Our Clients Say" data-ar="ماذا يقول عملاؤنا">What Our Clients Say</p>
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <p class="testimonial-text">Working with Andrew and the Details team was an absolute pleasure. Their attention to detail and creative vision transformed our brand identity completely. The results exceeded our expectations!</p>
+                <p class="testimonial-author">Sarah Mitchell</p>
+                <p class="testimonial-role">Marketing Director, TechStart Inc.</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">Andrew's work on our social media campaign was outstanding. He understood our vision perfectly and delivered designs that significantly increased our engagement rates. A true creative professional!</p>
+                <p class="testimonial-author">Omar Hassan</p>
+                <p class="testimonial-role">CEO, Momentum Digital</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">Details delivered exactly what we needed—a complete brand overhaul. Andrew's 11 years of experience really shows in the quality and sophistication of his work. We couldn't be happier!</p>
+                <p class="testimonial-author">Jennifer Rodriguez</p>
+                <p class="testimonial-role">Founder, Luxe Beauty Co.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="translatable" data-en="Get In Touch" data-ar="تواصل معنا">Get In Touch</h2>
+        <p class="section-subtitle translatable" data-en="Let's Create Something Amazing Together" data-ar="دعنا نصنع شيئاً مذهلاً معاً">Let's Create Something Amazing Together</p>
+    </section>
+
+    <footer>
+        <div class="footer-brand">DETAILS</div>
+        <p class="footer-tagline translatable" data-en="Precision in Every Pixel, Impact in Every Design" data-ar="دقة في كل بكسل، تأثير في كل تصميم">Precision in Every Pixel, Impact in Every Design</p>
+        <div class="social-links">
+            <a href="#" target="_blank">📘</a>
+            <a href="#" target="_blank">📷</a>
+            <a href="#" target="_blank">🔗</a>
+            <a href="https://wa.me/201281081242" target="_blank">💬</a>
+        </div>
+        <p class="footer-note translatable" data-en="© 2024 Details Design Studio. All rights reserved." data-ar="© 2024 استوديو Details للتصميم. جميع الحقوق محفوظة.">© 2024 Details Design Studio. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function switchLang(lang) {
+            const body = document.body;
+            const html = document.documentElement;
+            const buttons = document.querySelectorAll('.lang-btn');
+            const translatableElements = document.querySelectorAll('.translatable');
+
+            // Update direction
+            if (lang === 'ar') {
+                html.setAttribute('lang', 'ar');
+                html.setAttribute('dir', 'rtl');
+                body.setAttribute('dir', 'rtl');
+            } else {
+                html.setAttribute('lang', 'en');
+                html.setAttribute('dir', 'ltr');
+                body.setAttribute('dir', 'ltr');
+            }
+
+            // Update active button
+            buttons.forEach(btn => {
+                btn.classList.remove('active');
+                if ((lang === 'ar' && btn.textContent.includes('AR')) || 
+                    (lang === 'en' && btn.textContent.includes('EN'))) {
+                    btn.classList.add('active');
+                }
+            });
+
+            // Update text content
+            translatableElements.forEach(el => {
+                const text = el.getAttribute(`data-${lang}`);
+                if (text) {
+                    el.textContent = text;
+                }
+            });
+        }
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                if (targetSection) {
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
