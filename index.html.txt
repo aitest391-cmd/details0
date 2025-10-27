@@ -586,47 +586,48 @@
         💬
     </a>
 
-    
     <div class="hero" id="home">
         <div class="hero-content">
             <div class="brand-name">DETAILS</div>
-            <h1 id="hero-name" data-en="Andrew Nabil - Creative Designer" data-ar="أندرو نبيل - مصمم مبدع">Andrew Nabil - Creative Designer</h1>
-            <p class="tagline" id="tagline" data-en="Precision in Every Pixel, Impact in Every Design" data-ar="دقة في كل بكسل، تأثير في كل تصميم">Precision in Every Pixel, Impact in Every Design</p>
-            <p class="experience" id="experience" data-en="11 Years of Creative Excellence" data-ar="11 عاماً من التميز الإبداعي">11 Years of Creative Excellence</p>
-            <a href="#portfolio" class="btn" id="view-work-btn" data-en="View My Work" data-ar="شاهد أعمالي">View My Work</a>
+            <h1>Andrew Nabil - Creative Designer</h1>
+            <p class="tagline">Precision in Every Pixel, Impact in Every Design</p>
+            <p class="experience">11 Years of Creative Excellence</p>
+            <a href="#portfolio" class="btn">View My Work</a>
         </div>
     </div>
 
     <section id="about">
-        <h2 id="about-title" data-en="About Details" data-ar="عن Details">About Details</h2>
-        <p class="section-subtitle" id="about-subtitle" data-en="Where Creativity Meets Precision" data-ar="حيث يلتقي الإبداع بالدقة">Where Creativity Meets Precision</p>
-        <div class="about-content" id="about-content">
-            <p><strong>Details</strong> is not just a design studio—it's a philosophy. Founded by <strong>Andrew Nabil</strong>, a creative designer with over 11 years of professional experience, Details specializes in transforming brands through meticulous visual storytelling and innovative design solutions.</p>
-            <p>At Details, we believe that exceptional design lies in the nuances—the careful selection of colors, the perfect balance of typography, and the strategic placement of every element. Our approach combines artistic vision with strategic thinking to create designs that don't just look beautiful, but also drive results and leave lasting impressions.</p>
-            <p>With expertise spanning brand identity, social media design, motion graphics, and visual communications, we've helped countless clients across various industries establish their unique visual presence. Every project is an opportunity to push creative boundaries while maintaining the highest standards of professionalism and quality.</p>
-            <p>Based in Egypt and serving clients globally, Details delivers comprehensive design solutions that resonate with audiences and elevate brands to new heights. We don't just create designs—we craft experiences that matter.</p>
-        </div>
-        
-        <h3 style="text-align: center; font-size: 2rem; color: #3d1e6d; margin: 4rem 0 2rem; font-weight: 700;" id="design-services-title" data-en="Design Services" data-ar="خدمات التصميم">Design Services</h3>
-        <div class="services-list" id="services-list">
-            <span class="service-badge" data-en="Brand Identity" data-ar="الهوية البصرية">Brand Identity</span>
-            <span class="service-badge" data-en="Logo Design" data-ar="تصميم الشعارات">Logo Design</span>
-            <span class="service-badge" data-en="Social Media" data-ar="السوشيال ميديا">Social Media</span>
-            <span class="service-badge" data-en="Motion Graphics" data-ar="الموشن جرافيك">Motion Graphics</span>
-            <span class="service-badge" data-en="Video Editing" data-ar="مونتاج الفيديو">Video Editing</span>
-        </div>
-        
-        <h3 style="text-align: center; font-size: 2rem; color: #3d1e6d; margin: 4rem 0 2rem; font-weight: 700;" id="production-title" data-en="Production & Printing" data-ar="التنفيذ والطباعة">Production & Printing</h3>
-        <div class="services-list" id="production-list">
-            <span class="service-badge" data-en="Printing Materials" data-ar="المطبوعات">Printing Materials</span>
-            <span class="service-badge" data-en="Engraving" data-ar="الحفر">Engraving</span>
-            <span class="service-badge" data-en="Laser Cutting" data-ar="القص بالليزر">Laser Cutting</span>
-            <span class="service-badge" data-en="Promotional Gifts" data-ar="الهدايا الدعائية">Promotional Gifts</span>
-            <span class="service-badge" data-en="Signage & Stands" data-ar="اللافتات والستاندات">Signage & Stands</span>
-            <span class="service-badge" data-en="Fabric Printing" data-ar="طباعة على القماش">Fabric Printing</span>
+        <h2>About Details</h2>
+        <p class="section-subtitle">Where Creativity Meets Precision</p>
+        <div class="about-content">
+            <p>
+                <strong>Details</strong> is not just a design studio—it's a philosophy. Founded by <strong>Andrew Nabil</strong>, 
+                a creative designer with over 11 years of professional experience, Details specializes in transforming brands 
+                through meticulous visual storytelling and innovative design solutions.
+            </p>
+            <p>
+                At Details, we believe that exceptional design lies in the nuances—the careful selection of colors, the perfect 
+                balance of typography, and the strategic placement of every element. Our approach combines artistic vision with 
+                strategic thinking to create designs that don't just look beautiful, but also drive results and leave lasting impressions.
+            </p>
+            <p>
+                With expertise spanning brand identity, social media design, motion graphics, and visual communications, we've helped 
+                countless clients across various industries establish their unique visual presence. Every project is an opportunity 
+                to push creative boundaries while maintaining the highest standards of professionalism and quality.
+            </p>
+            <p>
+                Based in Egypt and serving clients globally, Details delivers comprehensive design solutions that resonate with 
+                audiences and elevate brands to new heights. We don't just create designs—we craft experiences that matter.
+            </p>
+            <div class="services-list">
+                <span class="service-badge">Brand Identity</span>
+                <span class="service-badge">Logo Design</span>
+                <span class="service-badge">Social Media</span>
+                <span class="service-badge">Motion Graphics</span>
+                <span class="service-badge">Video Editing</span>
+            </div>
         </div>
     </section>
-
 
     <section id="portfolio">
         <h2>Portfolio</h2>
